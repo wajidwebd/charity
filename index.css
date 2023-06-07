@@ -1,0 +1,1201 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,200;0,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,200;0,300;1,400&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,200;0,300;0,500;1,400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,400&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+.topicon{
+    position: fixed;
+    right: 20px;
+    bottom: 35px;
+}
+.headercolor{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+.logoalignments{
+    margin: 5px 0px 10px 18px;
+    padding-top: 2px;
+}
+
+ 
+.headerul li a {
+    text-decoration: none;
+    margin: 0px 35px;
+    font-size: 15px;
+    color: black;
+    font-family: Roboto;
+    font-weight: 600;
+}
+.headerul li{
+    list-style-type: none;
+}
+
+.headerul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+} 
+.donatetag{
+    padding: 5px 15px;
+    background-color: #29D6D1;
+    border-radius: 10px;
+    color: white !important; 
+}
+
+.bgimage{
+    background: url(Assests/Images/bannerimage.png);
+    background-size: cover;
+    height: 500px;
+}
+.movingbannersectioncontent{
+    color: white;
+    padding-top: 17%;
+    padding-left: 30px;
+    font-family: Montserrat;
+    
+}
+.movingbannersectioncontent h5{
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.discoverbutton{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-weight: 800px;
+
+}
+.bgsupportcolor{
+    background-color: #29D6D1;
+    height: 125px;
+}
+.support{
+    color: white;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    font-family: roboto;
+}
+.supportbutton{
+    background-color: white;
+    color: #29D6D1;
+    border: none;
+    padding: 5px 40px 5px 20px;
+    border-radius: 12px;
+    margin: 15px;
+    font-family: roboto;
+    
+}
+.arrowimage{
+    width: 22px;
+    position: relative;
+    left: -47px;
+    top: 7px;
+}
+.bgwelcome{
+    background-color: white;
+    height: 500px;
+}
+.bgwelcome h3{
+    text-align: center;
+    padding: 55px;
+    font-family: roboto;
+   
+}
+
+
+.welcomeline {
+        width: 11%;
+        border: 2px solid #29D6D1;
+        margin-top: 10px;
+        margin-left: 379px;
+    }
+
+.welcomeflex{
+    display: flex;
+    justify-content: space-between;
+}
+.subwelcomeone{
+    width: 60%;
+    
+    
+}
+.welcomeimagealignment{
+    
+    margin-left: 40px;
+    width: 366px
+}
+
+    
+
+.subwelcomeone h4{
+    color: #29D6D1;
+    font-family: Montserrat;
+    
+    
+}
+.subwelcomeone h5{
+    padding-bottom: 20px;
+    line-height: 22px;
+    font-family: roboto;
+    font-weight: 500;
+    
+    
+    
+}
+.bgaboutus{
+    background-color: white;
+    height: 420px;
+}
+.aboutusflex{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutustwo{
+    width: 60%;
+
+}
+.aboutusone{
+    width: 40%;
+}
+
+.aboutusimgalignment{
+    padding: 30px 0px;
+    
+}
+.aboutustwo h3{
+    
+    color: black;
+    padding-top: 30px;
+    font-family: roboto;
+}
+.aboutline{
+    width: 6%;
+    border: 2px solid #29D6D1;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+.aboutusflex2{
+    display: flex;
+    justify-content: space-between;
+    width: 93% ;
+    padding-top: 20px;
+    line-height: 22px;
+    font-family: Roboto;
+}
+.aboutustwo h4{
+    padding-top: 25px;
+    color: #29D6D1;
+    font-family: roboto;
+}
+.aboutustwo h5{
+    line-height: 22px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.aboutbutton{
+    margin-top: 30px;
+    padding: 10px 15px;
+    background-color: #29D6D1;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    font-family: Roboto;
+    font-size: 10px;
+    
+}
+.recentbg{
+    height: 160px;
+    background-color: white;
+}
+.recentflex{
+    display: flex;
+    justify-content: space-between;
+}
+.recentone{
+   padding-top: 30px;
+   width: 68%;
+   border-right: 1px solid black;
+   
+
+   
+   
+}
+.recentone h4{
+    color: #29D6D1;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.recentone h3{
+    padding-top: 27px;
+    font-family: Roboto;
+    
+}
+.recenttwo{
+    padding-top: 31px;
+}
+.recenttwo h5{
+    width: 90%;
+    padding-left: 51px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.recentbutton{
+   padding: 5px 15px;
+   border-radius: 10px;
+   margin-left:51px ;
+   margin-top: 16px;
+   border: none;
+   background-color: #29D6D1;
+   font-family: Roboto;
+   font-size: 10px;
+   
+}
+.videobg{
+    background-color: #29D6D1;
+    height: 600px;
+}
+.videobg h2{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+}
+.videoline {
+    width: 16%;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left: 405px;
+}
+
+.video1{
+    width: 550px;
+    height: auto;
+    margin: 30px 10px 20px 60px;
+}
+.videoflex{
+    display: flex;
+
+}
+.video2{
+    width: 250px; 
+    height: auto;
+    margin: 31px 10px 20px 30px;
+}
+.video3{
+    width: 250px; 
+    height: auto;
+    margin: 16px 10px 20px 30px;
+}
+
+
+
+
+.whatbg{
+    background-color:white;
+    height: 1120px;
+}
+.whatbg h3{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #29D6D1;
+    font-family: Roboto;
+}
+.whatline{
+    width: 5%;
+    border: 2px solid #29D6D1;
+    margin-top: 10px;
+    margin-left: 458px;
+}
+.whatimage{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 240px;
+    height: auto;
+    
+    
+}
+.readmorebutton{
+    color: #29D6D1;
+    font-family: Montserrat;
+    padding : 10px 0px 0px 10px;
+    font-size: small;
+}
+    
+
+.readmoreline{
+    color: #29D6D1;
+    width: 29%;
+    border: 2px solid #29D6D1;
+    margin-left: 10px;
+}
+
+.whatarrowimage{
+    width: 19px;
+    position: relative;
+    bottom: 19px;
+    left: 85px;
+
+}
+
+.whatdate{
+    color : #29D6D1;
+    padding : 10px 0px 10px 10px;
+    font-family: Montserrat;
+    
+
+}
+.whatstar{
+    padding-left: 10px;   
+
+}
+.whatbutton{
+    margin-left: 12px;
+    margin-top: 10px;
+    
+    
+}
+.whatflexone{
+    display: flex;
+    justify-content: space-between;
+
+}
+.whatflextwo{
+    padding-top: 20px;
+
+}
+.what1234{
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.image1234{
+    width: 150px;
+}
+.donatebg{
+    background-image: url(Assests/Images/donatebgimg.png);
+    background-size: cover;
+    height: 400px;
+}
+.donateh1{
+    padding: 40px;
+    text-align: center;
+    color: #29D6D1;
+    font-family: Roboto;
+}
+
+.donateline{
+    width: 4%;
+    border: 2px solid #29D6D1;
+    margin-left: 425px;
+    margin-top: 7px;
+
+}
+.donatebox{
+    width: 300px;
+    height: 300px;
+    background-color: #29D6D1;
+    border-radius: 20px;
+    position: relative;
+    left: 555px;
+    top: 58px;
+    font-family: Montserrat;
+   
+
+}
+.givedonate{
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+}
+
+
+.donatebox h6{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.donateh3{
+    color: white;
+    padding-top: 15px;
+    padding-left: 45px;
+    line-height: 30px;
+}
+.howmuchdonate{
+    margin: 20px 0px 10px 45px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.donatenowbutton{
+    margin: 10px 0px 10px 45px;
+    width: 210px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: #29D6D1;
+    background-color: white;
+}
+.donate{
+    background-color: white;
+    height: 570px ;
+}
+
+.contactbg{
+    background-color: #29D6D1;
+    height: 520px;
+}
+.contactbg h2{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-family: Roboto;
+}
+.contactline{
+    width: 5%;
+    border: 2px solid white;
+    margin-left: 458px;
+    margin-top: 7px;
+}
+.contactbox1{
+    width: 480px;
+    height: 150px;
+    
+    
+    
+}
+.box1{
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    margin: 20px 0px 10px 70px;
+    border-radius: 15px;
+}
+.contactimage{
+    width: 30px;
+    padding-left: 59px;
+    padding-top: 20px;
+    
+}
+.box1 p {
+    text-align: center;
+    color: #29D6D1;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: small;
+}
+
+.box2{
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    margin: 20px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+
+.box2 p {
+    text-align: center;
+    color: #29D6D1;
+    padding-top: 10px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: small;
+}
+.contactbox1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+
+.contactbox2{
+    width: 480px;
+    height: 150px;
+    
+}
+.box3{
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    margin: 20px 0px 10px 70px;
+    border-radius: 15px;
+    
+}
+
+.box3 p {
+    text-align: center;
+    color: #29D6D1;
+    padding-top: 10px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: small;
+}
+
+.box4{
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    margin: 20px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.box4 p {
+    text-align: center;
+    color: #29D6D1;
+    padding-top: 10px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: small;
+}
+.contactbox2{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.contact1{
+   padding-top: 60px;
+   position: relative;
+   top: 0px;
+   left: 30px;
+
+}
+
+.contact2{
+    background-color: #CDE7F5;
+    width: 400px;
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 15px;
+    
+
+}
+.contactflex{
+    display: flex;
+    
+}
+
+
+
+.inputname{
+    margin: 66px 20px 10px 82px;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    width: 225px;
+    font-size: small;
+    font-family: Montserrat;
+    
+    
+}
+.inputaddress{
+    margin: 20px 20px 10px 82px;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    width: 225px;
+    font-size: small;
+    font-family: Montserrat;
+    
+}
+.inputcomment{
+    margin: 20px 20px 10px 82px;
+    border-radius: 5px;
+    padding: 30px;
+    border: none;
+    width: 175px;
+    
+    font-family: Montserrat;
+    
+}
+::placeholder{
+    color: #29D6D1;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.submitbutton{
+    margin: 20px 0px 10px 165px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    width: 80px;
+   color: #29D6D1;
+   background-color: white;
+   font-family: Montserrat;
+}
+.footerbgcolor{
+    background-color: #000000;
+    height: 290px;
+}
+.footerimg{
+    padding-top: 27px;
+    
+    
+}
+
+.footerflex1{
+    display: flex;
+   
+    
+}
+.angelfooter{
+    position: relative;
+    right: 37px;
+}
+
+
+.angelfooter p{
+color: white;
+padding-top:45px ;
+color: #29D6D1;
+font-family: roboto;
+
+
+
+}
+.angelfooter h6{
+    padding-top:5px ;
+    color: #29D6D1;
+    
+    }
+    
+
+    .footercontent p{
+        color: white;
+    width: 300px;
+    padding-top: 16px;
+    padding-left: 20px;
+    line-height: 20px;
+    font-family: Montserrat;
+    font-size: small;
+        
+    }
+
+    .footerinputemail{
+        width: 270px;
+        border-radius: 12px;
+        padding: 8px !important;
+        border: none;
+        margin: 30px 0px 10px 20px;
+        font-family: Montserrat;
+       
+        
+    
+    }
+
+    .subscribefooter button{
+        width: 100px;
+        border-radius: 12px;
+        padding: 8px;
+        border: none;
+        background-color: #29D6D1;
+        color: white;
+        position: relative;
+        right: 100px;
+        top: 30px;
+        font-family: Montserrat;
+    }
+    
+    .footersubscribeflex{
+        display: flex;
+        
+
+    }
+
+    .footerflextwo{
+        display: flex;
+    }
+
+    .footerexplore ul li{
+        color: white;
+    list-style-type: none;
+    line-height: 30px;
+    font-family: Montserrat;
+    font-size: small;
+    
+    }
+    .footerOurProject ul li{
+        color: white;
+    list-style-type: none;
+    line-height: 30px;
+    font-family: Montserrat;
+    font-size: small;
+    
+    }
+    
+    .footerQuickLink ul li{
+        color: white;
+    list-style-type: none;
+    line-height: 30px;
+    font-family: Montserrat;
+    font-size: small;
+    }
+    
+    
+
+    .footerflex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .footerflextwo{
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 20px 0px 0px;
+        width: 560px;
+        
+    }
+
+    
+
+   .footerhighlights { 
+    color: #29D6D1 !important;
+    font-weight: 600;
+   }
+
+    .copywritebg{
+        background-color: white;
+        color: black;
+        
+        
+     
+        
+    }
+    .copywrite{
+display: flex;
+justify-content: space-around;
+
+    }
+
+    .copy1 h4{
+        display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    
+}
+    
+
+
+    .copy h5, h4{
+        font-family: Montserrat; 
+        padding-top: 10px;
+        
+        
+
+    }
+    .privacy{
+        margin-left: 450px;
+    }
+
+
+    .copywriteheight{
+        height: 40px;
+    }
+
+    
+        
+    @media screen and (max-width: 500px) {
+        main{
+            overflow: hidden;
+        }
+        .headerul {
+            display: block;
+            
+        }
+        .headerflex{
+            display: block;
+
+
+        }
+        .headercolor {
+            background-color: white;
+            width: 100%;
+            height: auto;
+        }
+
+
+    .logoalignments {
+        
+        width: 70px;
+        margin: 0PX;
+    }
+    .headerul {
+        
+        margin-top: 0px;
+        
+    }
+
+    .headerul li {
+        
+        padding-bottom: 8px;
+        
+    }
+    .headerul li a {
+        
+        margin: 0px 0px
+    }
+    .donatelist{
+        margin-bottom: 10px;
+        padding-top: 5px;
+    }
+    .movingbannersectioncontent {
+        
+        
+        padding-left: 0px;
+        font-size: 10px;
+        
+    }
+    
+
+    .bgimage {
+        
+        
+        height: 250px;
+    }
+
+    .discoverbutton {
+        
+        padding: 5px 10px;
+    }
+
+    .bgsupportcolor {
+        background-color: #29D6D1;
+        
+
+    }
+
+    .support {
+        
+        text-align: center;
+        font-size: 12px;
+        
+    }
+    .supportbutton {
+        
+        text-align: center;
+        
+    }
+    .welcomeflex{
+        display: block;
+       
+    }
+    
+        
+         .welcomeline {
+            width: 28%;
+        position: relative;
+            right:285px;
+        }
+    
+    
+   
+    
+        
+    
+    .bgwelcome {
+        
+        height: auto;
+    }
+    .welcomeimagealignment {
+        margin-left: 15px;
+        
+    }
+    .subwelcomeone h5 {
+        
+        width: 380px;
+    }
+    .subwelcomeone h4 {
+        width: 380px;
+        
+        
+    }
+     .aboutusflex{
+        display: block;
+    }
+    .aboutustwo h5 {
+        
+        width: 380px;
+        
+    }
+    
+    .aboutustwo h4 {
+        width: 380px;
+        
+        }
+    .aboutusflex2 {
+        display: block;
+        
+        line-height: 28px;
+        
+    }
+    
+    .aboutusimgalignment {
+        margin-left: 16px;
+    padding-top: 30px;
+    width: 365px;
+        
+    }
+    .aboutline {
+        width: 12%;
+        border: 2px solid #29D6D1;
+        margin-top: 10px;
+    }
+    
+    
+    .bgaboutus {
+        
+        height: auto;
+    }
+    .recentflex{
+        display: block;
+    }
+    .recentone {
+        
+        border-right: 0px solid black;
+    }
+    
+    
+    .recentbg {
+        height: auto;
+        
+    }
+    .recenttwo h5 {
+        width: 380px;
+        padding-left: 0px;
+    }
+    .videobg h2 {
+        padding-top: 20px;
+        
+        font-size: 18px;
+    }
+    
+    .videoline {
+        width: 25%;
+        margin-top: 10px;
+        margin-left: 132px;
+        margin-bottom: 20px;
+    }
+    .recentbutton {
+        
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .videoflex{
+        display: block;
+    }
+    .videobg {
+        
+        height: auto;
+    }
+    .video1 {
+        width: 360px;
+    height: auto;
+    margin-left: 16px;
+    
+    
+        
+    }
+    .video2 {
+        width: 361px;
+        height: auto;
+        margin: 20px 5px 20px 16px;
+    }
+    .video3 {
+        width: 361px;
+        height: auto;
+        margin: 20px 5px 35px 16px;
+
+    }
+
+    .whatflexone{
+        display: block;
+        justify-content: space-between;
+    
+    }
+    .whatbg {
+        
+        height: auto;
+    }
+    .whatline {
+        width: 8%;
+        
+        margin-top: 10px;
+        margin-left: 182px;
+    }
+    
+
+    .whatimage {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: 380px;
+        height: auto;
+        margin-left: 7px;
+        
+    }
+    .readmoreline {
+        
+        width: 18%;
+        
+    }
+    
+    .donate {
+        
+        height: auto;
+    }
+    .givedonate {
+        
+        position: relative;
+    right: 7px;
+        
+    }
+
+    
+    .donatebg {
+        
+        height: 600px;
+    }
+
+    
+        
+        
+        .donatebox {
+            position: relative;
+            left: 50px;
+            top: 168px;
+        }
+    
+    
+    .donateline {
+        width: 8%;
+        margin-left: 146px;
+        
+    }
+    
+    
+
+    .contactflex{
+        display: block;
+        
+    }
+    .contactbg {
+        
+        height: auto;
+    }
+    
+    .contactline {
+        width: 18%;
+        margin-left: 162px;
+        margin-top: 7px;
+    }
+    .box1 {
+        
+        
+        position: relative;
+    right: 75px;
+        
+    }
+    .box2 {
+        
+        
+        position: relative;
+    right: 140px;
+    }
+    .box3 {
+        
+        position: relative;
+       
+        right: 75px;
+    }
+    .box4 {
+        
+        position: relative;
+            
+    right: 140px;
+    }  
+    
+    
+    .footerflex{
+        display: block;
+        
+    }
+
+
+    .footerflextwo{
+        display: block;
+        
+        
+    
+}
+.footerbgcolor {
+    
+    height: auto;
+
+
+}
+.angelfooter {
+    position: relative;
+    right: 40px;
+    bottom: 1px;
+}
+.footercontent p {
+    
+    
+    padding-top: 16px;
+    padding-left: 4px;
+}
+ .footerinputemail {
+    
+    
+    
+    position: relative;
+    right: 20px;
+} 
+.footerexplore,.footerOurProject,.footerQuickLink{
+    padding: 0px 0px 20px 5px;
+}
+
+        
+    }
+         
+
+    
+    
+    
+
+    
+    
